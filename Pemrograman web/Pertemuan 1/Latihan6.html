@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Latihan6.css">
+    <title>Belajar membuat formulir 2</title>
+</head>
+<body>
+    <h1> Formulir Pendataan Mahasiswa </h1>
+    <form action="">
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td>Nim</td>
+                <td><input type="text" name="nim"></td>
+            </tr>
+            <tr>
+                <td>Tempat lahir</td>
+                <td><input type="text" name="tempat lahir"></td>
+            </tr>
+            <tr>
+                <td>Tanggal lahir</td>
+                <td><input type="date" name="tanggal lahir"></td>
+            </tr>
+            <tr>
+                <td>Jenis kelamin</td>
+                <td>
+                    <input type="radio" name="jk" value="laki-laki">Laki-laki
+                    <input type="radio" name="jk" value="perempuan">Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><textarea name="alamat" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>
+                    <input type="checkbox" name="hobi" value="membaca">Membaca
+                    <input type="checkbox" name="hobi" value="menulis">Menulis
+                    <input type="checkbox" name="hobi" value="menonton">Bermain Game 
+                    <input type="checkbox" name="hobi" value="futsal">Futsal
+                </td>
+            </tr>
+            <tr>
+                <td>Program studi</td>
+                <td>
+                    <select name="program studi">
+                        <option value="Sistem Informasi Kelautan">Sistem informasi kelautan</option>
+                        <option value="Logistik Kelautan">Logistik kelautan</option>
+                        <option value="Pendidikan Kelautan Perikanan">Pendidikan Kelautan Perikanan</option>
+                        <option value="Pendidikan Guru Sekolah Dasar">Pendidikan Guru Sekolah Dasar</option>
+                        <option value="Pendidikan Guru Pendidikan Anak Usia Dini">Pendidikan Guru Pendidikan Anak Usia Dini</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <input type="submit" value="Simpan">
+    </form>
+</body>
+</html>

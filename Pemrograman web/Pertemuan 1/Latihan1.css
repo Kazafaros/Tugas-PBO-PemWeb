@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Body{
+    background-color: #003285;
+    font-family: 'poppins', sans-serif;
+    font-size: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: -12%;
+    margin-left: 5%;
+    color :#fff
+}
+
+button {
+    background-color: #ffff;
+    color: #2980b9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+button:hover {
+    background-color: #fff;
+}
+    
+
+
+header {
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
